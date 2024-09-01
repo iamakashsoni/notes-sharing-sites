@@ -1,0 +1,24 @@
+## Step 1: Create Virtual Environment
+python -m venv venv
+
+
+## Step 2: Activate Virtual Environment
+.\venv\Scripts\activate
+
+
+## Step 3: Install Requirements from requirements.txt
+pip install -r requirements.txt
+
+
+## Step 4: Run makemigrations Command
+python manage.py makemigrations
+
+## Step 5: Run migrate Command  
+python manage.py migrate
+
+## Step 6: Create Superuser
+python manage.py createsuperuser
+
+## Step 7: Run Development Server
+python manage.py runserver
+
